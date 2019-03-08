@@ -30,6 +30,8 @@ np.set_printoptions(precision=3)
 
 timer = CUDATimer()
 cudnn.benchmark = True
+if not os.path.exists("./saved_models"):
+    os.mkdir("./saved_models")
 
 # parse console parameters and set global variables
 Config.backend = Backends.TORCH
