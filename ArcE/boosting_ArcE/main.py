@@ -11,7 +11,7 @@ from os.path import join
 import torch.backends.cudnn as cudnn
 
 from evaluation import ranking_and_hits
-from model import ConvE, DistMult, Complex
+from model import ArcE, DistMult, Complex
 from utils import load_pretrain_emb, load_description
 
 from src.spodernet.spodernet.preprocessing.pipeline import Pipeline, DatasetStreamer
@@ -160,9 +160,9 @@ def main():
 
 
     if Config.model_name is None:
-        model = ConvE(vocab['e1'].num_token, vocab['rel'].num_token, word_embedding, max_len)
-    elif Config.model_name == 'ConvE':
-        model = ConvE(vocab['e1'].num_token, vocab['rel'].num_token, word_embedding, max_len)
+        model = ArcE(vocab['e1'].num_token, vocab['rel'].num_token, word_embedding, max_len)
+    elif Config.model_name == 'ArcE':
+        model = ArcE(vocab['e1'].num_token, vocab['rel'].num_token, word_embedding, max_len)
     elif Config.model_name == 'DistMult':
         model = DistMult(vocab['e1'].num_token, vocab['rel'].num_token)
     elif Config.model_name == 'ComplEx':
