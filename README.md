@@ -17,9 +17,9 @@ This repo supports Linux and Python installation via Anaconda.
 Parameters need to be specified by white-space tuples for example:
 ```
 
-CUDA_VISIBLE_DEVICES=3 python main.py model ArcE_des dataset FB15k input_drop 0.2 hidden_drop 0.3 feat_drop 0.2 lr 0.003 lr_decay 0.995 process True 
+CUDA_VISIBLE_DEVICES=3 python main.py model ArcE dataset FB15k input_drop 0.2 hidden_drop 0.3 feat_drop 0.2 lr 0.003 lr_decay 0.995 process True 
 ```
-will run a basic_ArcE model on FB15k which will utilize the descriptions of the entities as   supplementary information.
+will run a basic_ArcE model on FB15k which will not utilize the descriptions of the entities.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------
@@ -44,4 +44,4 @@ Parameters need to be specified by white-space tuples for example:
 
 CUDA_VISIBLE_DEVICES=3 python main.py model ArcE dataset FB15k input_drop 0.2 hidden_drop 0.3 feat_drop 0.2 lr 0.003 lr_decay 0.995 process True 
 ```
-will run a boosting_ArcE model on FB15k which will not utilize the descriptions of the entities.
+will run a boosting_ArcE model on FB15k which will utilize the descriptions of the entities.
