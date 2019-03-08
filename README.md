@@ -34,7 +34,7 @@ This repo supports Linux and Python installation via Anaconda.
 2. Install the requirements `pip install -r requirements`
 3. Download the default English model used by [spaCy](https://github.com/explosion/spaCy), which is installed in the previous step `python -m spacy download en`
 4. Preprocess for FB15k : `python wrangle_KG.py FB15k`
-5. You can  get the embeddings of description from here : [download](https://pan.baidu.com/s/18N6VkWIm5jeO0MMZMk-4yA),extraction code is duvb <font color=red>我是红色</font>
+5. You can  get the embeddings of description from here : [download](https://pan.baidu.com/s/18N6VkWIm5jeO0MMZMk-4yA),extraction code is `duvb`
 6. You can now run the model
 
 ## Running a model
