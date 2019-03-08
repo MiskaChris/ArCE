@@ -106,7 +106,7 @@ def main():
 
     if Config.model_name is None:
         model = ArcE(vocab['e1'].num_token, vocab['rel'].num_token)
-    elif Config.model_name == 'ConvE':
+    elif Config.model_name == 'ArcE':
         model = ArcE(vocab['e1'].num_token, vocab['rel'].num_token)
     elif Config.model_name == 'DistMult':
         model = DistMult(vocab['e1'].num_token, vocab['rel'].num_token)
