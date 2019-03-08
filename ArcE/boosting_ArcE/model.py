@@ -80,9 +80,9 @@ class DistMult(torch.nn.Module):
 
 
 
-class ConvE(torch.nn.Module):
+class ArcE(torch.nn.Module):
     def __init__(self, num_entities, num_relations, word_embedding, max_len):
-        super(ConvE, self).__init__()
+        super(ArcE, self).__init__()
         self.emb_e = torch.nn.Embedding(num_entities, Config.embedding_dim, padding_idx=0)
         self.emb_rel = torch.nn.Embedding(num_relations, Config.embedding_dim, padding_idx=0)
         self.inp_drop = torch.nn.Dropout(Config.input_dropout)
