@@ -9,7 +9,7 @@ This repo supports Linux and Python installation via Anaconda.
 1. Install [PyTorch](https://github.com/pytorch/pytorch) using [Anaconda](https://www.continuum.io/downloads). 
 2. Install the requirements `pip install -r requirements`
 3. Download the default English model used by [spaCy](https://github.com/explosion/spaCy), which is installed in the previous step `python -m spacy download en`
-4. Run the preprocessing script for FB15k : `python wrangle_KG.py FB15k`
+4. Preprocess for FB15k : `python wrangle_KG.py FB15k`
 5. You can now run the model
 
 ## Running a model
@@ -33,7 +33,7 @@ This repo supports Linux and Python installation via Anaconda.
 1. Install [PyTorch](https://github.com/pytorch/pytorch) using [Anaconda](https://www.continuum.io/downloads). 
 2. Install the requirements `pip install -r requirements`
 3. Download the default English model used by [spaCy](https://github.com/explosion/spaCy), which is installed in the previous step `python -m spacy download en`
-4. Run the preprocessing script for FB15k : `python wrangle_KG.py FB15k`
+4. Preprocess for FB15k : `python wrangle_KG.py FB15k`
 5. You can now run the model
 6. You can also get the embeddings of description from here : [download](https://pan.baidu.com/disk/home?#/all?vmode=list&path=%2Fglove%20embedding)
 
