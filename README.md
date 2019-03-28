@@ -47,16 +47,9 @@ CUDA_VISIBLE_DEVICES=3 python main.py model ArcE dataset FB15k input_drop 0.2 hi
 will run a boosting_ArcE model on FB15k which will utilize the descriptions of the entities.
 
 ## Supplementary Experiments
-Tasks       | hits@3 |    Hits@1
+Tasks       | Prediction Head (Hits@10)|    Prediction Tail (Hits@10)
 :---        | :---:      | :---: 
 
-Dataset | MR | MRR | Hits@10 | Hits@3 | Hits@1
-:--- | :---: | :---: | :---: | :---: | :---:
-FB15k | 64 | 0.75 | 0.87 | 0.80 | 0.67
-WN18 | 504 | 0.94 | 0.96 | 0.95 | 0.94
-FB15k-237 | 246 | 0.32 | 0.49 | 0.35 | 0.24
-WN18RR | 4766 | 0.43 | 0.51 | 0.44 | 0.39
-YAGO3-10 | 2792 | 0.52 | 0.66 | 0.56 | 0.45
-Nations | 2 | 0.82 | 1.00 | 0.88 | 0.72
-UMLS | 1 | 0.94 | 0.99 | 0.97 | 0.92
-Kinship | 2 | 0.83 | 0.98 | 0.91 | 0.73
+Relation Category | 1-to-1 | 1-to-n | n-to-1 |m-to-n | 1-to-1 | 1-to-n | n-to-1 |m-to-n |
+:--------- | :---: | :---: | :---: | :---: | :---:| :---: | :---: | :---: | :---: | :---:
+TransE(Bodes et al., 2013) | 43.7| 65.7 | 18.2 | 47.2 | 43.7 | 19.7 | 66.7 | 50.0 
