@@ -53,4 +53,6 @@ Tasks       |                   Prediction Head (Hits@10)|            Prediction
 Relation Category | 1-to-1 | 1-to-n | n-to-1 |m-to-n | 1-to-1 | 1-to-n | n-to-1 |m-to-n |
 :--------- | :---: | :---: | :---: | :---: | :---:| :---: | :---: | :---: 
 TransE(Bodes et al., 2013) | 43.7| 65.7 | 18.2 | 47.2 | 43.7 | 19.7 | 66.7 | 50.0 
+![Image text](https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/canon.png)
+
 
