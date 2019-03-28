@@ -48,7 +48,7 @@ will run a boosting_ArcE model on FB15k which will utilize the descriptions of t
 
 ## Supplementary Experiments
 Tasks       | Prediction Head (Hits@10)|    Prediction Tail (Hits@10)
-:---        | :---:      | :---: 
+:------------------       | :---------------:      | :------------------: 
 
 Relation Category | 1-to-1 | 1-to-n | n-to-1 |m-to-n | 1-to-1 | 1-to-n | n-to-1 |m-to-n |
 :--------- | :---: | :---: | :---: | :---: | :---:| :---: | :---: | :---: 
