@@ -47,8 +47,7 @@ CUDA_VISIBLE_DEVICES=3 python main.py model ArcE dataset FB15k input_drop 0.2 hi
 will run a boosting_ArcE model on FB15k which will utilize the descriptions of the entities.
 
 ## Supplementary Experiments
-   Tasks    |Prediction      Head    (Hits@10) |     Prediction      Tail (Hits@10)
-        Tasks       |                   Prediction      Head    (Hits@10)|      Prediction      Tail (Hits@10)
+Tasks    |Prediction      Head    (Hits@10) |     Prediction      Tail (Hits@10)
 :------------------       | :---------------:      | :------------------: 
 
 Relation Category | 1-to-1 | 1-to-n | n-to-1 |m-to-n | 1-to-1 | 1-to-n | n-to-1 |m-to-n |
