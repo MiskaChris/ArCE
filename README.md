@@ -54,7 +54,7 @@ Relation Category | 1-1 | 1-n | n-1 |m-n | 1-1 | 1-n | n-1 |m-n |
 :--------- | :---: | :---: | :---: | :---: | :---:| :---: | :---: | :---: 
 TransE＜/br＞(Bodes et al., 2013) | 43.7| 65.7 | 18.2 | 47.2 | 43.7 | 19.7 | 66.7 | 50.0 
 
-<div align=center><img width="150" height="300" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C.png"/></div>
+<div align=center><img width="150" height="100" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C.png"/></div>
 
 
 
