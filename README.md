@@ -47,9 +47,11 @@ CUDA_VISIBLE_DEVICES=3 python main.py model ArcE dataset FB15k input_drop 0.2 hi
 will run a boosting_ArcE model on FB15k which will utilize the descriptions of the entities.
 
 ## Supplementary Experiments 
-   To further analyze the KGE results, researchers often classify a KG’s relations into 4 types according to the type definition given by TransH and then report more detailed experimental results of them. We also compare the detailed results of ArcE(Basic) with other baselines. 
-   The results are shown in Table 4. From Table 4 we can see that ArcE(Basic) obtains more balanced performance among different kinds of relations: in ArcE(Basic), the performance gaps among different kinds of relations are less than that of in other methods. Especially, ArcE(Basic) does much better than other baselines for the m-to-n relations. 
-   From Table 4 we can also find that when predicting the complex part of a relation, most of methods do much poor. For example, the Hits@10 scores for both the n-to-1 relations’ head prediction and the 1-to-n relations’ tail prediction are far lower than the scores of other kinds of prediction. This trend also exists in ArcE(Basic), but our method does much better than the compared baseline methods, which indicates our method can alleviate the data sparisity issue greatly. 
+To further analyze the KGE results, researchers often classify a KG’s relations into 4 types according to the type definition given by TransH and then report more detailed experimental results of them. We also compare the detailed results of ArcE(Basic) with other baselines.  
+   
+The results are shown in Table 4. From Table 4 we can see that ArcE(Basic) obtains more balanced performance among different kinds of relations: in ArcE(Basic), the performance gaps among different kinds of relations are less than that of in other methods. Especially, ArcE(Basic) does much better than other baselines for the m-to-n relations.  
+
+From Table 4 we can also find that when predicting the complex part of a relation, most of methods do much poor. For example, the Hits@10 scores for both the n-to-1 relations’ head prediction and the 1-to-n relations’ tail prediction are far lower than the scores of other kinds of prediction. This trend also exists in ArcE(Basic), but our method does much better than the compared baseline methods, which indicates our method can alleviate the data sparisity issue greatly. 
 <div align=center><img width="800" height="300" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C.png"/></div>
 Table 4: Experimental results of FB15k by mapping properties of relations. Here we only compare ArcE with
 some of the baselines that report this kind of experimental results. Especially compared with TransG, which
