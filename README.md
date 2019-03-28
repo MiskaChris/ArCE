@@ -49,6 +49,7 @@ will run a boosting_ArcE model on FB15k which will utilize the descriptions of t
 ## Supplementary Experiments
 Tasks       | hits@3 |    Hits@1
 :---        | :---:      | :---: 
+
 Dataset | MR | MRR | Hits@10 | Hits@3 | Hits@1
 :--- | :---: | :---: | :---: | :---: | :---:
 FB15k | 64 | 0.75 | 0.87 | 0.80 | 0.67
