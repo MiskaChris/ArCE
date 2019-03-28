@@ -47,7 +47,7 @@ CUDA_VISIBLE_DEVICES=3 python main.py model ArcE dataset FB15k input_drop 0.2 hi
 will run a boosting_ArcE model on FB15k which will utilize the descriptions of the entities.
 
 ## Supplementary Experiments
-Dataset | MR | MRR | Hits@10 | Hits@3 | Hits@1
+Tasks |  hits@3 | Hits@1 |
 :--- | :---: | :---: | :---: | :---: | :---:
 FB15k | 64 | 0.75 | 0.87 | 0.80 | 0.67
 WN18 | 504 | 0.94 | 0.96 | 0.95 | 0.94
