@@ -92,10 +92,10 @@ class ArcE(torch.nn.Module):
 
         self.conv1 = torch.nn.Conv2d(1, 32, (3, 3), 1, 0, bias=Config.use_bias)
        
-        self.conv2 = torch.nn.Conv2d(32, 32, (3, 3), 1, 2, bias=Config.use_bias, dilation=2)
-        self.conv3 = torch.nn.Conv2d(32, 32, (3, 3), 1, 2, bias=Config.use_bias, dilation=2)
-        self.conv4 = torch.nn.Conv2d(32, 32, (3, 3), 1, 2, bias=Config.use_bias, dilation=2)
-        self.conv_dilation = torch.nn.Conv2d(32, 32, (3, 3), 1, 3, bias=Config.use_bias, dilation=2)
+        self.conv2 = torch.nn.Conv2d(32, 32, (3, 3), 1, 3, bias=Config.use_bias, dilation=3)
+        self.conv3 = torch.nn.Conv2d(32, 32, (3, 3), 1, 3, bias=Config.use_bias, dilation=3)
+        self.conv4 = torch.nn.Conv2d(32, 32, (3, 3), 1, 3, bias=Config.use_bias, dilation=3)
+        self.conv_dilation = torch.nn.Conv2d(32, 32, (3, 3), 1, 4, bias=Config.use_bias, dilation=3)
         self.bn0 = torch.nn.BatchNorm2d(1)
         self.bn1 = torch.nn.BatchNorm2d(32)
         self.bn2 = torch.nn.BatchNorm1d(Config.embedding_dim)
