@@ -53,10 +53,9 @@ From Table 4 we can also find that when predicting the complex part of a relatio
 <div align=center><img width="800" height="300" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C.png"/></div>
 Table 4: Experimental results of FB15k by mapping properties of relations. Here we only compare ArcE with
 some of the baselines that report this kind of experimental results. Especially compared with TransG, which
-achieves the current-best Hits@10 score on FB15k.
+achieves the current-best Hits@10 score on FB15k.  
 
-
- Here r refers to the atrous rate. Atrous means the number of atrous layers in the AtrousConvBlock.
+ Here r refers to the atrous rate. Atrous means the number of atrous layers in the AtrousConvBlock.  
  Hits@3 results under different setting are shown below.
  <div align=center><img width="800" height="300" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验1.png"/></div>
 
