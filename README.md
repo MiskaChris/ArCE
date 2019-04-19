@@ -55,7 +55,9 @@ Table 4: Experimental results of FB15k by mapping properties of relations. Here 
 some of the baselines that report this kind of experimental results. Especially compared with TransG, which
 achieves the current-best Hits@10 score on FB15k.
 
- Hits@3 results, Hits@1 results and MRR results  under different setting. Here r refers to the atrous rate. Atrous means the number of atrous layers in the AtrousConvBlock
+
+ Here r refers to the atrous rate. Atrous means the number of atrous layers in the AtrousConvBlock.
+ Hits@3 results under different setting are shown below.
  <div align=center><img width="800" height="300" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验1.png"/></div>
 
 
