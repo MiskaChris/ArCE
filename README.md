@@ -58,7 +58,7 @@ achieves the current-best Hits@10 score on FB15k.
 ## Supplementary Experiments2
  Here r refers to the atrous rate. Atrous means the number of atrous layers in the AtrousConvBlock.  
  1. Hits@3 results under different setting are shown below.
- <div align=center><img width="600" height="100" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验1.png"/></div>  
+ <div align=center><img width="600" height="200" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验1.png"/></div>  
  2.  Hits@1 results under different setting are shown below.  
   <div align=center><img width="800" height="300" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验2.png"/></div>   
   
