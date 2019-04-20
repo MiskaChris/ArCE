@@ -71,11 +71,11 @@ The parameters of our method mainly come from 3 parts.1)Embeddings for entities 
 Compared with other description-used methods, the number of parameters in AcrE is linear increased due to the using of 2 kinds descriptions. When modeling these descriptions, DNN-based methods are often used. Thus the differences in both the time complexity and the space complexity of the description-used methods mainly come from the number of parameters. Accordingly, AcrE has a similar time and space complexity with other description-used methods like TKRL,DKRL,SSP,etc.  
 
 ## Supplementary Experiments4  
- <div align=center><img width="790" height="160" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验7.png"/></div>
+ <div align=center><img width="790" height="155" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验7.png"/></div>
  Ablation experiments with/without residual learning on Wn18& FB15k 
    
    
-  <div align=center><img width="750" height="160" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验8.png"/></div>
+  <div align=center><img width="760" height="160" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验8.png"/></div>
   Ablation experiments with/without residual learning on Wn18RR& FB15k-23  
   
 ## Supplementary Experiments5
