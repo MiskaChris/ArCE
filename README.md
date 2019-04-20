@@ -71,6 +71,7 @@ The parameters of our method mainly come from 3 parts.1)Embeddings for entities 
 Compared with other description-used methods, the number of parameters in AcrE is linear increased due to the using of 2 kinds descriptions. When modeling these descriptions, DNN-based methods are often used. Thus the differences in both the time complexity and the space complexity of the description-used methods mainly come from the number of parameters. Accordingly, AcrE has a similar time and space complexity with other description-used methods like TKRL,DKRL,SSP,etc.  
 
 ## Supplementary Experiments4  
+The experiments show that there is a tiny different between the performance of "with/without" residual learning on most of the cases. We think the main reason is in line with the reason of introducing residual learning. We write in the right-bottom of page1 that we introduce residual learning in the proposed method mainly to address the vanishing/exploding gradient issue inherent in the DNN based learning frame. When we use more than 2 atrous convolutional layers in AcrE, we found it is often difficult for the model well converged if we don't use the residual learning.
  <div align=center><img width="790" height="155" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验7.png"/></div>
  Ablation experiments with/without residual learning on Wn18& FB15k 
    
