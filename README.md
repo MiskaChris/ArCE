@@ -80,8 +80,12 @@ The experiments show that there is a tiny different between the performance of "
   Ablation experiments with/without residual learning on Wn18RR& FB15k-23  
   
   ## Supplementary Experiments5
-   <div align=center><img width="700" height="100" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验9.png"/></div>
+The words of a description are not equally useful to model a given entity. Thus, we design attention mechanism to automatically identify which words are more important to the given entity.  
+We use heat map for the description of Barack Obama.  Higher weights show in darker color.
+   <div align=center><img width="700" height="100" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验9.png"/></div>  
+   DB+attention
     <div align=center><img width="700" height="50" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验10.png"/></div>
+    wiki+attention
   
 ## Supplementary Experiments6
 **Here r refers to the atrous rate. Atrous means the number of atrous layers in the AtrousConvBlock.**  
