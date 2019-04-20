@@ -80,13 +80,13 @@ The experiments show that there is a tiny different between the performance of "
   Ablation experiments with/without residual learning on Wn18RR& FB15k-23  
   
   ## Supplementary Experiments5
-   <div align=center><img width="630" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验9.png"/></div>
-    <div align=center><img width="630" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验10.png"/></div>
+   <div align=center><img width="630" height="150" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验9.png"/></div>
+    <div align=center><img width="630" height="150" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验10.png"/></div>
   
 ## Supplementary Experiments6
 **Here r refers to the atrous rate. Atrous means the number of atrous layers in the AtrousConvBlock.**  
  1. Hits@3 results under different setting are shown below.
- <div align=center><img width="630" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验9.png"/></div>  
+ <div align=center><img width="630" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验1.png"/></div>  
  2.  Hits@1 results under different setting are shown below.  
   <div align=center><img width="640" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验2.png"/></div>   
   
