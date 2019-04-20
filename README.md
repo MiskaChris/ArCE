@@ -75,7 +75,7 @@ Compared with other description-used methods, the number of parameters in AcrE i
  Ablation experiments with/without residual learning on Wn18& FB15k 
    
    
-  <div align=center><img width="800" height="160" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验8.png"/></div>
+  <div align=center><img width="750" height="160" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验8.png"/></div>
   Ablation experiments with/without residual learning on Wn18RR& FB15k-23  
   
 ## Supplementary Experiments5
