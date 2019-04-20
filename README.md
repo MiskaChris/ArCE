@@ -83,7 +83,7 @@ Compared with other description-used methods, the number of parameters in AcrE i
  1. Hits@3 results under different setting are shown below.
  <div align=center><img width="630" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验1.png"/></div>  
  2.  Hits@1 results under different setting are shown below.  
-  <div align=center><img width="630" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验2.png"/></div>   
+  <div align=center><img width="640" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验2.png"/></div>   
   
   3.  MRR results under different setting are shown below.  
   <div align=center><img width="600" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验3.png"/></div>  
