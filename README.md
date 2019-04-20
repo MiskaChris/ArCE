@@ -56,6 +56,12 @@ some of the baselines that report this kind of experimental results. Especially 
 achieves the current-best Hits@10 score on FB15k.  
 
 ## Supplementary Experiments2
+<div align=center><img width="615" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验4.png"/></div>
+Link prediction results on WN18 & FB15k. (RotatE: https://arxiv.org/pdf/1902.10197.pdf )  
+<div align=center><img width="615" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验5.png"/></div>
+Link prediction results on WN18RR & FB15k-237. (RotatE: https://arxiv.org/pdf/1902.10197.pdf )  
+
+## Supplementary Experiments3
  Here r refers to the atrous rate. Atrous means the number of atrous layers in the AtrousConvBlock.  
  1. Hits@3 results under different setting are shown below.
  <div align=center><img width="615" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验1.png"/></div>  
