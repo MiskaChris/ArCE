@@ -62,7 +62,7 @@ Link prediction results on WN18 & FB15k. (RotatE: https://arxiv.org/pdf/1902.101
 Link prediction results on WN18RR & FB15k-237. (RotatE: https://arxiv.org/pdf/1902.10197.pdf )  
 
 ## Supplementary Experiments3
- Here r refers to the atrous rate. Atrous means the number of atrous layers in the AtrousConvBlock.  
+ **Here r refers to the atrous rate. Atrous means the number of atrous layers in the AtrousConvBlock.**  
  1. Hits@3 results under different setting are shown below.
  <div align=center><img width="630" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验1.png"/></div>  
  2.  Hits@1 results under different setting are shown below.  
@@ -71,7 +71,7 @@ Link prediction results on WN18RR & FB15k-237. (RotatE: https://arxiv.org/pdf/19
   3.  MRR results under different setting are shown below.  
   <div align=center><img width="600" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验3.png"/></div>  
   
- Parameter size comparison.
+ **Parameter size comparison.**
  <div align=center><img width="600" height="200" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验6.png"/></div> 
  Here we copy the qualitative analyzed results for the first two models from ProjE directly(see Table 1 in ProjE for detailed information). ne, nr, nw, are the number of entities, relationships, and words. We use a unified symbol d to denote the dimension of entity embedding, relation embedding, and word embedding. k is the number of hidden layers, h is the size of hidden layers. Usually, nwkh and nekh. The number “2” in DKRL means there are two kinds of matrix parameters: one is for the head entities and the other is for the tail entities. The number “2” in AcrE(Basic) has a similar meaning. The number “2” in AcrE(Full) means there are two kinds of descriptions used. The number “4” means 4 kinds of matrix parameters: the head entity matrix parameters and the tail entity matrix parameters from two kinds of descriptions.  
  
