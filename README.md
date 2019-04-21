@@ -56,7 +56,8 @@ some of the baselines that report this kind of experimental results. Especially 
 achieves the current-best Hits@10 score on FB15k.  
 
 ## Supplementary Experiments2：Results for Hits@1, Hits@3, Hits@10 and MRR  
-We add RotatE, a new baseline model, in these two comparison tables. RotatE has been accepted by ICLR 2019 and appears on arXiv at Feb 26 of 2019. The experiments show that generally, AcrE does better on WN18 and FB15k, while RotatE does better on WN18RR and FB15k-237.  
+We add RotatE, a new baseline model, in these two comparison tables. RotatE has been accepted by ICLR 2019 and appears on arXiv at Feb 26 of 2019. The experiments show that generally, AcrE does better on WN18 and FB15k, while RotatE does better on WN18RR and FB15k-237.
+It should be noted that most of the baselines in Table1 and Table 2 of our submission do not report their results on Hits@3, Hits@1 and MRR. So in the following two tables, we select the same baselines used in ConvE (see Table3 and Table 4 in ConvE).  
 
 <div align=center><img width="800" height="200" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验4.png"/></div>
 Link prediction results on WN18 & FB15k. (RotatE: https://arxiv.org/pdf/1902.10197.pdf )  
