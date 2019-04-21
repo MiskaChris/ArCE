@@ -84,7 +84,7 @@ The experiments show that there is a tiny different between the performance of "
   Ablation experiments with/without residual learning on Wn18RR& FB15k-23  
   
 ##  Supplementary Experiments5：A Case Study for Multi-Source Descriptions
-We provide a case study to demonstrate the role of multi-source descriptions. Taking the entity “Barack Obama” as example, its two descriptions are as followings.
+We provide a case study to demonstrate the role of multi-source descriptions. Taking the entity “Barack Obama” as example (Xu et al.2017(Jointly) also used this entity as example in their paper), its two descriptions are as followings.   
 
 DBpedia Description: “Barack Hussein Obama II is the 44th and current President of the United States, and the first African American to hold the office. Born in Honolulu, Hawaii, Obama is a graduate of Columbia University and Harvard Law School, where he served as president of the Harvard Law Review. He was a community organizer in Chicago before earning his law degree. He worked as a civil rights attorney and taught constitutional law at the University of Chicago Law School from 1992 to 2004. He served three terms representing the 13th District in the Illinois Senate from 1997 to 2004, running unsuccessfully for the United States House of Representatives in 2000.”  
 Wikidata Description: “44th President of the United States of America”
