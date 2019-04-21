@@ -93,7 +93,7 @@ We can see that for an entity, there is usually a more comprehensive description
 
 The words in them are not equally important to model a given entity. Thus, we design attention mechanism to automatically identify which words are more important to the given entity. The following heat map shows the attention results for the description of “Barack Obama” (for simplicity, we only show parts of words in the DBpedia description). Higher weights show in darker color.
 
-From the map we can see that the designed attention method captures the important words well. Thus a more accurate and comprehensive embedding representation could be learned for “Barack Obama”. Accordingly, the data sparsity issue is alleviated greatly.
+From the map we can see that the designed attention method captures the important words well. Two kinds of descriptions can complement each other and cross validate each other. Thus a more accurate and comprehensive embedding representation could be learned for “Barack Obama”. Accordingly, the data sparsity issue is alleviated greatly.
    <div align=center><img width="900" height="100" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验9.png"/></div>  
    DB+attention  
     <div align=center><img width="800" height="50" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验10.png"/></div>
