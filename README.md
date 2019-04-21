@@ -100,7 +100,7 @@ From the map we can see that the designed attention method captures the importan
    <div align=center><img width="800" height="50" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验10.png"/></div>
     wiki+attention  
     
-   <div align=center><img width="800" height="50" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验11.png"/></div>
+   <div align=center><img width="700" height="150" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验11.png"/></div>
     
   
 ##  Supplementary Experiments6：Results of Hits@3, Hits@1, and MRR Under Different Settings
