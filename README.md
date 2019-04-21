@@ -92,7 +92,7 @@ The words in them are not equally important to model a given entity. Thus, we de
 From the map we can see that the designed attention method captures the important words well. Thus a more accurate and comprehensive embedding representation could be learned for “Barack Obama”. Accordingly, the data sparsity issue is alleviated greatly.
    <div align=center><img width="900" height="100" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验9.png"/></div>  
    DB+attention
-    <div align=center><img width="800" height="50" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验10.png"/></div>
+    <div align=center><img width="900" height="70" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验10.png"/></div>
     wiki+attention
   
 ##  Supplementary Experiments6：Results of Hits@3, Hits@1, and MRR Under Different Settings
