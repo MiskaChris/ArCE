@@ -97,7 +97,10 @@ From the map we can see that the designed attention method captures the importan
    <div align=center><img width="900" height="100" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验9.png"/></div>  
    DB+attention  
     <div align=center><img width="800" height="50" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验10.png"/></div>
-    wiki+attention
+    wiki+attention  
+    
+   <div align=center><img width="800" height="50" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验10.png"/></div>
+    
   
 ##  Supplementary Experiments6：Results of Hits@3, Hits@1, and MRR Under Different Settings
 **Here r refers to the atrous rate. Atrous means the number of atrous layers in the AtrousConvBlock.**  
