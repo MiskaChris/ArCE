@@ -83,7 +83,7 @@ The experiments show that there is a tiny different between the performance of "
  Ablation experiments with/without residual learning on Wn18& FB15k 
    
    
-  <div align=center><img width="790" height="160" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验8.png"/></div>
+  <div align=center><img width="790" height="160" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验8.1.png"/></div>
   Ablation experiments with/without residual learning on Wn18RR& FB15k-23  
   
 ##  Supplementary Experiments5：A Case Study for Multi-Source Descriptions
