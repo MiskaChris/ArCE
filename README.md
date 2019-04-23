@@ -50,7 +50,7 @@ will run a boosting_ArcE model on FB15k which will utilize the descriptions of t
 To further analyze the KGE results, researchers often classify a KG’s relations into 4 types according to the type definition given by TransH and then report more detailed experimental results of them. We also compare the detailed results of ArcE(Basic) with other baselines.   
 The results are shown in Table 4. From Table 4 we can see that ArcE(Basic) obtains more balanced performance among different kinds of relations: in ArcE(Basic), the performance gaps among different kinds of relations are less than that of in other methods. Especially, ArcE(Basic) does much better than other baselines for the m-to-n relations.  
 From Table 4 we can also find that when predicting the complex part of a relation, most of methods do much poor. For example, the Hits@10 scores for both the n-to-1 relations’ head prediction and the 1-to-n relations’ tail prediction are far lower than the scores of other kinds of prediction. This trend also exists in ArcE(Basic), but our method does much better than the compared baseline methods, which indicates our method can alleviate the data sparisity issue greatly. 
-<div align=center><img width="800" height="300" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/%E5%AE%9E%E9%AA%8C%E7%BB%93%E6%9E%9C.png"/></div>
+<div align=center><img width="800" height="300" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/experiments.png"/></div>
 Table 4: Experimental results of FB15k by mapping properties of relations. Here we only compare ArcE with
 some of the baselines that report this kind of experimental results. Especially compared with TransG, which
 achieves the current-best Hits@10 score on FB15k.  
@@ -59,14 +59,14 @@ achieves the current-best Hits@10 score on FB15k.
 We add RotatE, a new baseline model, in these two comparison tables. RotatE has been accepted by ICLR 2019 and appears on arXiv at Feb 26 of 2019. The experiments show that generally, AcrE does better on WN18 and FB15k, while RotatE does better on WN18RR and FB15k-237.
 It should be noted that most of the baselines in Table1 and Table 2 of our submission do not report their results on Hits@3, Hits@1 and MRR. So in the following two tables, we select the same baselines used in ConvE (see Table3 and Table 4 in ConvE).  
 
-<div align=center><img width="800" height="200" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验4.png"/></div>
+<div align=center><img width="800" height="200" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/Experiments4.png"/></div>
 Link prediction results on WN18 & FB15k. (RotatE: https://arxiv.org/pdf/1902.10197.pdf )  
-<div align=center><img width="800" height="200" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验5.png"/></div>
+<div align=center><img width="800" height="200" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/Experiments5.png"/></div>
 Link prediction results on WN18RR & FB15k-237. (RotatE: https://arxiv.org/pdf/1902.10197.pdf )  
 
 ## Supplementary Experiments3：Complexity Analysis
  
- <div align=center><img width="800" height="225" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验6.png"/></div>  
+ <div align=center><img width="800" height="225" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/Experiments6.png"/></div>  
  
 Here we copy the qualitative analyzed results for the first two models from ProjE directly(see Table 1 in ProjE for detailed information). ne, nr, nw, are the number of entities, relationships, and words. We use a unified symbol d to denote the dimension of entity embedding, relation embedding, and word embedding. k is the number of hidden layers, h is the size of hidden layers. Usually,  nd>>kh. It should be noted that both k and h in different models are different. In AcrE, k is approximately equal to 6*t (6 corresponding to the matrixes W, M, M1, M2, M3, and the gate vector g. See Equation2, 3, 9, 10, 12, and 16, t is the layers of atrous convolutions). The number “2” in AcrE(Full) means there are two kinds of descriptions used.    
 
@@ -79,11 +79,11 @@ Compared with other description-used methods, the number of parameters in AcrE i
 
 ##  Supplementary Experiments4：Ablation Experiments of With/Without Residual Learning
 The experiments show that there is a tiny different between the performance of "with/without" residual learning on most of the cases. We think the main reason is in line with the reason of introducing residual learning. We write in the right-bottom of page1 that we introduce residual learning in the proposed method mainly to address the vanishing/exploding gradient issue inherent in the DNN based learning frame. When we use more than 2 atrous convolutional layers in AcrE, we found it is often difficult for the model well converged if we don't use the residual learning.
- <div align=center><img width="790" height="155" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验7.png"/></div>
+ <div align=center><img width="790" height="155" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/Experiments7.png"/></div>
  Ablation experiments with/without residual learning on Wn18& FB15k 
    
    
-  <div align=center><img width="790" height="160" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验8.1.png"/></div>
+  <div align=center><img width="790" height="160" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/Experiments8.1.png"/></div>
   Ablation experiments with/without residual learning on Wn18RR& FB15k-23  
   
 ##  Supplementary Experiments5：A Case Study for Multi-Source Descriptions
@@ -97,22 +97,22 @@ We can see that for an entity, there is usually a more comprehensive description
 The words in them are not equally important to model a given entity. Thus, we design attention mechanism to automatically identify which words are more important to the given entity. The following heat map shows the attention results for the description of “Barack Obama” (for simplicity, we only show parts of words in the DBpedia description). Higher weights show in darker color.
 
 From the map we can see that the designed attention method captures the important words well. Two kinds of descriptions can complement each other and cross validate each other. Thus a more accurate and comprehensive embedding representation could be learned for “Barack Obama”. Accordingly, the data sparsity issue is alleviated greatly.
-   <div align=center><img width="900" height="100" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验9.png"/></div>  
+   <div align=center><img width="900" height="100" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/Experiments9.png"/></div>  
    DB+attention    
    
-   <div align=center><img width="800" height="50" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验10.png"/></div>
+   <div align=center><img width="800" height="50" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/Experiments10.png"/></div>
     wiki+attention  
     
-   <div align=center><img width="650" height="100" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验11.png"/></div>
+   <div align=center><img width="650" height="100" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/Experiments11.png"/></div>
     
   
 ##  Supplementary Experiments6：Results of Hits@3, Hits@1, and MRR Under Different Settings
 **Here r refers to the atrous rate. Atrous means the number of atrous layers in the AtrousConvBlock.**  
  1. Hits@3 results under different setting are shown below.
- <div align=center><img width="630" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验1.png"/></div>  
+ <div align=center><img width="630" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/Experiments1.png"/></div>  
  2.  Hits@1 results under different setting are shown below.  
-  <div align=center><img width="640" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验2.png"/></div>   
+  <div align=center><img width="640" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/Experiments2.png"/></div>   
   
   3.  MRR results under different setting are shown below.  
-  <div align=center><img width="600" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/实验3.png"/></div>  
+  <div align=center><img width="600" height="250" src="https://github.com/MiskaChris/ArCE/blob/master/ArcE/basic_ArcE/Experiments3.png"/></div>  
   
